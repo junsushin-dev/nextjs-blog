@@ -10,6 +10,9 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="google" content="nositelinksearchbox" key="sitelinks" />
+        <meta name="google" content="notranslate" key="notranslate" />
+        <link rel="canonical" href="https://example.com/blog/original-post" key="canonical" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hello I'm Junsu</p>
